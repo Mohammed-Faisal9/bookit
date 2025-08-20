@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 Bookit – Room Booking Platform  
 
-## Getting Started
+**Bookit** is a web application for booking and renting rooms.  
+It is built with **Next.js** for the frontend, **Appwrite** as the backend/database, and styled with **Tailwind CSS**.  
 
-First, run the development server:
+The app allows users to browse available rooms, view details, and book them seamlessly with a modern and responsive interface.  
+
+---
+
+## 🚀 Features  
+
+- 🏠 Browse and search available rooms  
+- 📖 Room details page with description, pricing, and availability  
+- 🛎️ Book a room instantly  
+- 🗄️ Database powered by **Appwrite**  
+- 🎨 Fully responsive UI with **Tailwind CSS**  
+- ⚡ Fast and optimized experience with **Next.js**  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **Next.js** – React framework for the frontend  
+- **Appwrite** – Backend and database  
+- **Tailwind CSS** – Modern and responsive styling  
+
+---
+
+## 📂 Project Structure  
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+src/
+│── app/              # Next.js app directory (routes, layouts, pages)
+│── components/       # Reusable UI components
+│── lib/              # Appwrite config and helpers
+│── actions/           # For API requests
+│── public/           # Static assets
